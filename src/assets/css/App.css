@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    margin: 0vh 5vw;
+}
+
+body{
+    background-image: url('https://img.freepik.com/fotos-premium/fondo-textura-abstracta-degradado-azul-oscuro_41691-1179.jpg?size=626&ext=jpg&ga=GA1.1.867424154.1698105600&semt=ais');
+    background-repeat: no-repeat;
+    background-size: 100% 100vh;
+}
+
+@media (max-width: 900px) {
+    .imgLogo,
+    .css-1yhum1v-MuiPaper-root{
+        display: none !important;
+    }
+}
